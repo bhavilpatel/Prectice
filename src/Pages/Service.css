@@ -1,0 +1,31 @@
+.card {
+    background-color: lightsteelblue;
+    width: 50%;
+}
+
+.card:hover {
+    background-color: lightpink;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.allCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    justify-items: center;}
+
+.search {
+    padding: 5px 20px;
+    outline: none;
+}
+
+.pagination {
+    margin: 10px auto;
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+}
+
+.active {
+    padding: 0 5px;
+}

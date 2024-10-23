@@ -1,0 +1,44 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    padding: 50px;
+    border-radius: 15px;
+    width: fit-content;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-color: white;
+}
+
+.login-input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit {
+    background-color: #2c64f4;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    width: fit-content;
+    border-radius: 100px;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+.submit:active {
+    background-color: #103081;
+
+}
