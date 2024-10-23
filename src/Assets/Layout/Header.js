@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../Images/logo.svg'
 import './Header.css'
-
+import service from '../../Pages/Service'
 export default function Header() {
     return (
         <div>
@@ -25,7 +25,7 @@ export default function Header() {
                                     <a href='#'><li className="dropdown-list">Career</li></a>
                                 </ul>
                             </li></a>
-                            <a href='#'><li className='dropdown'>
+                            <a href={service}><li className='dropdown'>
                                 <span>Service</span>
                                 <ul className='dropdown-ul'>
                                     <a href='#'><li className="dropdown-list">UI-UX Designing</li></a>
